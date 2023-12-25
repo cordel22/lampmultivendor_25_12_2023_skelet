@@ -1,0 +1,90 @@
+
+/* Add the following styles to your style.css */
+
+body {
+    background-color: aqua;
+}
+
+/* Center-align navbar links */
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-nav .nav-item {
+    display: inline-block;
+}
+
+/* Adjust responsive styles for mobile view */
+@media (max-width: 768px) {
+    .navbar-toggler {
+        order: -1;
+    }
+
+    .navbar-nav {
+        text-align: left;
+    }
+
+    .navbar-collapse {
+        max-height: none;
+    }
+}
+
+
+
+/*  sticky  footer  */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes at least the full viewport height */
+}
+
+main {
+    flex: 1; /* Make the main content flex-grow to fill available space */
+}
+
+footer {
+    margin-top: auto; /* Push the footer to the bottom */
+    background-color: #f8f9fa; /* Add background color or any other styling */
+    padding: 20px 0; /* Add padding for better appearance */
+}
+
+
+.container {
+    margin-top: 20px;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+/* Four Colors for Layout */
+.color-1 {
+    background-color: #007bff; /* Blue */
+    color: #fff;
+}
+
+.color-2 {
+    background-color: #28a745; /* Green */
+    color: #fff;
+}
+
+.color-3 {
+    background-color: #dc3545; /* Red */
+    color: #fff;
+}
+
+.color-4 {
+    background-color: #ffc107; /* Yellow */
+    color: #000;
+}
+
+/* Additional Styling */
+.card {
+    border: none;
+}
+
+.card-body {
+    padding: 20px;
+}
